@@ -200,8 +200,5 @@ resource "aws_key_pair" "hashicat" {
 
 resource "aws_instance" "hashicat" {
     department = "devops"
-}
-
-resource "aws_instance" "hashicat" {
     billable = "true"
 }
